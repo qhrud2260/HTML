@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>3-4</title>
+
+    <style>
+        /* 속성선택자 */
+        input[name = uid]{
+            width :200px;
+            height :30px;
+        }
+
+        input[name = pass]{
+            width :200px;
+            height :30px;
+            background-color: cornsilk;
+        }
+
+        input[type = submit]{
+      
+            width :80px;
+            height :80px;
+        }
+
+        h4{
+            width: 200px;
+            height: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h3>4. CSS속성 선택자</h3>
+
+    <form action = "#">
+        <table border="2">
+            
+            <tr>
+                <td colspan="2">
+                    <h4>로그인</h4>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <input type = "text" name = "uid" placeholder="아이디 입력"/>
+                </td>
+                <td rowspan="2">
+                    <input type = "submit" value = "로그인하기"/>
+                   
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type = "text" name = "pass" placeholder="비밀번호 입력"/>
+                </td>
+            </tr>
+
+        </table>
+        
+    </form>
+</body>
+</html>
